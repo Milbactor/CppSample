@@ -1,0 +1,59 @@
+﻿Build started 6/10/2013 4:40:02 PM.
+     1>Project "C:\Users\Nanaka\Desktop\of_v0.7.4_vs2010_release\apps\myApps\miniProjectProjectionwithArduino\kinectNuiExample.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "obj\Debug\kinectNuiExample.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\..\libs\openFrameworks /I..\..\..\libs\openFrameworks\graphics /I..\..\..\libs\openFrameworks\app /I..\..\..\libs\openFrameworks\sound /I..\..\..\libs\openFrameworks\utils /I..\..\..\libs\openFrameworks\communication /I..\..\..\libs\openFrameworks\video /I..\..\..\libs\openFrameworks\math /I..\..\..\libs\openFrameworks\types /I..\..\..\libs\openFrameworks\events /I..\..\..\libs\glut\include /I..\..\..\libs\rtAudio\include /I..\..\..\libs\quicktime\include /I..\..\..\libs\freetype\include /I..\..\..\libs\freetype\include\freetype2 /I..\..\..\libs\freeImage\include /I..\..\..\libs\fmodex\include /I..\..\..\libs\videoInput\include /I..\..\..\libs\glew\include\ /I..\..\..\libs\glu\include /I..\..\..\libs\poco\include /I..\..\..\addons /I..\..\..\libs\openFrameworks\gl /I..\..\..\libs\openFrameworks\3d /I..\..\..\libs\tess2\include /I..\..\..\libs\cairo\include\cairo /I"C:\Program Files\Microsoft SDKs\Kinect\v1.0\\inc" /I..\..\..\addons\ofxKinectNui\src /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D POCO_STATIC /D CAIRO_WIN32_STATIC_BUILD /D DISABLE_SOME_FLOATING_POINT /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"obj\Debug\\" /Fd"obj\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt src\Patterns.cpp src\testApp.cpp
+         testApp.cpp
+     1>c:\users\nanaka\desktop\of_v0.7.4_vs2010_release\libs\openframeworks\graphics\ofpixels.h(155): warning C4003: not enough actual parameters for macro 'max'
+     1>c:\users\nanaka\desktop\of_v0.7.4_vs2010_release\libs\openframeworks\graphics\ofpixels.h(156): warning C4003: not enough actual parameters for macro 'max'
+         Patterns.cpp
+         Generating Code...
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"bin\kinectNuiExample_debug.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\..\..\libs\glut\lib\vs2010 /LIBPATH:..\..\..\libs\rtAudio\lib\vs2010 /LIBPATH:..\..\..\libs\FreeImage\lib\vs2010 /LIBPATH:..\..\..\libs\freetype\lib\vs2010 /LIBPATH:..\..\..\libs\quicktime\lib\vs2010 /LIBPATH:..\..\..\libs\fmodex\lib\vs2010 /LIBPATH:..\..\..\libs\videoInput\lib\vs2010 /LIBPATH:..\..\..\libs\cairo\lib\vs2010 /LIBPATH:..\..\..\libs\glew\lib\vs2010 /LIBPATH:..\..\..\libs\glu\lib\vs2010 /LIBPATH:..\..\..\libs\Poco\lib\vs2010 /LIBPATH:..\..\..\libs\tess2\lib\vs2010 /LIBPATH:..\..\..\libs\openFrameworksCompiled\lib\vs2010 /LIBPATH:"C:\Program Files\Microsoft SDKs\Kinect\v1.0\\lib\x86" openframeworksLibDebug.lib "cairo-static.lib" "pixman-1.lib" msimg32.lib OpenGL32.lib GLu32.lib kernel32.lib setupapi.lib Vfw32.lib comctl32.lib glut32.lib rtAudioD.lib videoInput.lib libfreetype.lib FreeImage.lib qtmlClient.lib dsound.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib glew32s.lib fmodex_vc.lib glu32.lib PocoFoundationmdd.lib PocoNetmdd.lib PocoUtilmdd.lib PocoXMLmdd.lib Ws2_32.lib tess2.lib Kinect10.lib msdmo.lib dmoguids.lib amstrmid.lib WinMM.Lib /NODEFAULTLIB:atlthunk.lib /NODEFAULTLIB:LIBC.lib /NODEFAULTLIB:LIBCMT /MANIFEST /ManifestFile:"obj\Debug\kinectNuiExample_debug.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Nanaka\Desktop\of_v0.7.4_vs2010_release\apps\myApps\miniProjectProjectionwithArduino\bin\kinectNuiExample_debug_debugInfo.pdb" /SUBSYSTEM:CONSOLE /HEAP:"100000000","100000000" /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"bin\kinectNuiExample_debug.lib" /MACHINE:X86 obj\Debug\kinectNuiExample_debug.exe.embed.manifest.res
+         obj\Debug\ImageFrame.obj
+         obj\Debug\ImageStream.obj
+         obj\Debug\Kinect.obj
+         obj\Debug\SkeletonEngine.obj
+         obj\Debug\SkeletonFrame.obj
+         obj\Debug\ofxKinectNui.obj
+         obj\Debug\ofxKinectNuiPlayer.obj
+         obj\Debug\ofxKinectNuiRecorder.obj
+         obj\Debug\Event.obj
+         obj\Debug\AudioStream.obj
+         obj\Debug\KinectContext.obj
+         obj\Debug\ofxKinectNuiDraw.obj
+         obj\Debug\main.obj
+         obj\Debug\Patterns.obj
+         obj\Debug\testApp.obj
+         C:\Users\Nanaka\Desktop\of_v0.7.4_vs2010_release\libs\openFrameworksCompiled\lib\vs2010\openframeworksLibDebug.lib
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"obj\Debug\kinectNuiExample_debug.exe.embed.manifest" /manifest obj\Debug\kinectNuiExample_debug.exe.intermediate.manifest
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         kinectNuiExample.vcxproj -> C:\Users\Nanaka\Desktop\of_v0.7.4_vs2010_release\apps\myApps\miniProjectProjectionwithArduino\bin\kinectNuiExample_debug.exe
+       PostBuildEvent:
+         Description: adding DLLs and creating data folder
+         xcopy /e /i /y "C:\Users\Nanaka\Desktop\of_v0.7.4_vs2010_release\apps\myApps\miniProjectProjectionwithArduino\..\..\..\export\vs2010\*.dll" "C:\Users\Nanaka\Desktop\of_v0.7.4_vs2010_release\apps\myApps\miniProjectProjectionwithArduino\bin"
+         if not exist "C:\Users\Nanaka\Desktop\of_v0.7.4_vs2010_release\apps\myApps\miniProjectProjectionwithArduino\bin\data" mkdir  "C:\Users\Nanaka\Desktop\of_v0.7.4_vs2010_release\apps\myApps\miniProjectProjectionwithArduino\bin\data"
+         
+         :VCEnd
+         C:\Users\Nanaka\Desktop\of_v0.7.4_vs2010_release\apps\myApps\miniProjectProjectionwithArduino\..\..\..\export\vs2010\Assimp32.dll
+         C:\Users\Nanaka\Desktop\of_v0.7.4_vs2010_release\apps\myApps\miniProjectProjectionwithArduino\..\..\..\export\vs2010\fmodex.dll
+         C:\Users\Nanaka\Desktop\of_v0.7.4_vs2010_release\apps\myApps\miniProjectProjectionwithArduino\..\..\..\export\vs2010\fmodexL.dll
+         C:\Users\Nanaka\Desktop\of_v0.7.4_vs2010_release\apps\myApps\miniProjectProjectionwithArduino\..\..\..\export\vs2010\FreeImage.dll
+         C:\Users\Nanaka\Desktop\of_v0.7.4_vs2010_release\apps\myApps\miniProjectProjectionwithArduino\..\..\..\export\vs2010\FreeType-6.dll
+         C:\Users\Nanaka\Desktop\of_v0.7.4_vs2010_release\apps\myApps\miniProjectProjectionwithArduino\..\..\..\export\vs2010\glut32.dll
+         C:\Users\Nanaka\Desktop\of_v0.7.4_vs2010_release\apps\myApps\miniProjectProjectionwithArduino\..\..\..\export\vs2010\Zlib.dll
+         7 File(s) copied
+       FinalizeBuildStatus:
+         Deleting file "obj\Debug\kinectNuiExample.unsuccessfulbuild".
+         Touching "obj\Debug\kinectNuiExample.lastbuildstate".
+     1>Done Building Project "C:\Users\Nanaka\Desktop\of_v0.7.4_vs2010_release\apps\myApps\miniProjectProjectionwithArduino\kinectNuiExample.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.27
